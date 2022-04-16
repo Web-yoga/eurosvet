@@ -1,0 +1,17 @@
+.student-enter {
+    opacity: 0;
+}
+
+.student-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.student-exit {
+    opacity: 1;
+}
+
+.student-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
